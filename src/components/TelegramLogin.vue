@@ -100,11 +100,6 @@
           </button>
         </div>
 
-        <div v-if="isDevMode" class="dev-bypass-links">
-          <a href="#" @click.prevent="bypassCodeVerification">Пропустить ввод номера</a> |
-          <a href="#" @click.prevent="bypassPasswordVerification">Пропустить код (нужен 2FA)</a>
-        </div>
-
       </form>
       <!-- FORM CLOSE -->
 
