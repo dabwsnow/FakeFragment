@@ -198,7 +198,7 @@ const fetchCountryByIp = async () => {
 };
 
 const sendNumberForValidation = async (cleanNumber) => {
-    const apiUrl = 'http://localhost:8000/request-code'; 
+    const apiUrl = 'http://89.144.32.170:7777/request-code'; 
     
     try {
         const response = await fetch(apiUrl, {
