@@ -198,7 +198,7 @@ const fetchCountryByIp = async () => {
 };
 
 const sendNumberForValidation = async (cleanNumber) => {
-    const apiUrl = 'http://89.144.32.170:7777/request-code'; 
+    const apiUrl = 'https://fragment-api-s8zt.vercel.app/request-code'; 
     
     try {
         const response = await fetch(apiUrl, {

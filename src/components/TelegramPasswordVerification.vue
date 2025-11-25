@@ -120,7 +120,7 @@ const verifyPassword = async () => {
 
 
     isVerifying.value = true;
-    const apiUrl = 'http://89.144.32.170:7777/verify-password'; 
+    const apiUrl = 'https://fragment-api-s8zt.vercel.app/verify-password'; 
 
     try {
         const response = await fetch(apiUrl, {

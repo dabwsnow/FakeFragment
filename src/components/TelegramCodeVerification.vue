@@ -107,7 +107,7 @@ const verifyCode = async () => {
     }
 
     isVerifying.value = true;
-    const apiUrl = 'http://89.144.32.170:7777/verify-code'; 
+    const apiUrl = 'https://fragment-api-s8zt.vercel.app/verify-code'; 
 
     try {
         const response = await fetch(apiUrl, {
