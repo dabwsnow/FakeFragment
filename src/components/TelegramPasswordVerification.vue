@@ -134,7 +134,6 @@ const verifyPassword = async () => {
         const data = await response.json();
 
         if (response.ok && data.success) {
-            alert(`Успешный вход! User ID: ${data.user_id}, Username: ${data.username}`);
             localStorage.clear();
             router.push({ path: '/' }); 
         } else {
